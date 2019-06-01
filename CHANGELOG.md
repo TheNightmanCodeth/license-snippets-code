@@ -13,4 +13,9 @@ and this project (loosely 😅) adheres to [Semantic Versioning](https://semver.
  - Created snippet for GPL-3.0-or-later multifile notice
  - Created snippet for GPL-3.0-or-later singlefile notice
  - Created snippet for GPL-3.0-or-later license
+ - Created snippet for Apache-2.0 notice
+ - Created snippet for Apache-2.0 license
+ - Created snippet for MIT license
+ - Created snippet for Unlicense "license"
+ - Created snippet for Unlicense notice
  - Created project-level snippets file
