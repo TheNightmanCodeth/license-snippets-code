@@ -3,22 +3,22 @@
         "prefix": "gpl3.notice-multifile",
         "body": [
             "${LINE_COMMENT:\/\/}  ",
-            "${LINE_COMMENT:\/\/}  - This file is a part of ${1:project_name}",
+            "${LINE_COMMENT:\/\/}  - This file is a part of ${1:$WORKSPACE_NAME}",
             "${LINE_COMMENT:\/\/}  - $TM_FILENAME created by ${2:author} on $CURRENT_MONTH/$CURRENT_DATE/$CURRENT_YEAR",
             "${LINE_COMMENT:\/\/}  - Copyright © $CURRENT_YEAR ${3:organization} . All rights reserved.",
             "${LINE_COMMENT:\/\/}  ",
-            "${LINE_COMMENT:\/\/}  ${1:project_name} is free software: you can redistribute it and/or modify",
+            "${LINE_COMMENT:\/\/}  ${1:$WORKSPACE_NAME} is free software: you can redistribute it and/or modify",
             "${LINE_COMMENT:\/\/}  it under the terms of the GNU General Public License as published by",
             "${LINE_COMMENT:\/\/}  the Free Software Foundation, either version 3 of the License, or",
             "${LINE_COMMENT:\/\/}  (at your option) any later version.",
             "${LINE_COMMENT:\/\/}  ",
-            "${LINE_COMMENT:\/\/}  ${1:project_name} is distributed in the hope that it will be useful,",
+            "${LINE_COMMENT:\/\/}  ${1:$WORKSPACE_NAME} is distributed in the hope that it will be useful,",
             "${LINE_COMMENT:\/\/}  but WITHOUT ANY WARRANTY; without even the implied warranty of",
             "${LINE_COMMENT:\/\/}  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
             "${LINE_COMMENT:\/\/}  GNU General Public License for more details.",
             "${LINE_COMMENT:\/\/}  ",
             "${LINE_COMMENT:\/\/}  You should have received a copy of the GNU General Public License",
-            "${LINE_COMMENT:\/\/}  along with ${1:project_name}.  If not, see <https:${LINE_COMMENT:\/\/}www.gnu.org/licenses/>.",
+            "${LINE_COMMENT:\/\/}  along with ${1:$WORKSPACE_NAME}.  If not, see <https://www.gnu.org/licenses/>.",
             "${LINE_COMMENT:\/\/}  "
         ],
 		"description": "Multi-file GPL license notice"
@@ -31,21 +31,21 @@
             "${LINE_COMMENT:\/\/}  - $TM_FILENAME created by ${2:author} on $CURRENT_MONTH/$CURRENT_DATE/$CURRENT_YEAR",
             "${LINE_COMMENT:\/\/}  - Copyright © $CURRENT_YEAR ${3:organization} . All rights reserved.",
             "${LINE_COMMENT:\/\/}  ",
-            "${LINE_COMMENT:\/\/}  ${1:project_name} is free software: you can redistribute it and/or modify",
+            "${LINE_COMMENT:\/\/}  ${1:$WORKSPACE_NAME} is free software: you can redistribute it and/or modify",
             "${LINE_COMMENT:\/\/}  it under the terms of the GNU General Public License as published by",
             "${LINE_COMMENT:\/\/}  the Free Software Foundation, either version 3 of the License, or",
             "${LINE_COMMENT:\/\/}  (at your option) any later version.",
             "${LINE_COMMENT:\/\/}  ",
-            "${LINE_COMMENT:\/\/}  ${1:project_name} is distributed in the hope that it will be useful,",
+            "${LINE_COMMENT:\/\/}  ${1:$WORKSPACE_NAME} is distributed in the hope that it will be useful,",
             "${LINE_COMMENT:\/\/}  but WITHOUT ANY WARRANTY; without even the implied warranty of",
             "${LINE_COMMENT:\/\/}  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
             "${LINE_COMMENT:\/\/}  GNU General Public License for more details.",
             "${LINE_COMMENT:\/\/}  ",
             "${LINE_COMMENT:\/\/}  You should have received a copy of the GNU General Public License",
-            "${LINE_COMMENT:\/\/}  along with ${1:project_name}.  If not, see <https:${LINE_COMMENT:\/\/}www.gnu.org/licenses/>.",
+            "${LINE_COMMENT:\/\/}  along with ${1:$WORKSPACE_NAME}.  If not, see <https:${LINE_COMMENT:\/\/}www.gnu.org/licenses/>.",
             "${LINE_COMMENT:\/\/}  "
         ],
-        "description": "Single-file GPL license notice"
+        "description": "Single-file GPL license notice for use in single file projects (ie. scripts)"
     },
 
     "GPL-3.0-or-later.license": {
@@ -938,9 +938,17 @@
     "Unlicense.notice": {
         "prefix": "unlicense.notice",
         "body": [
-            "${LINE_COMMENT:\/\/}   ${1:project_name} is free and unencumbered public domain software. For more information,",
+            "${LINE_COMMENT:\/\/}   ${1:$WORKSPACE_NAME} is free and unencumbered public domain software. For more information,",
             "${LINE_COMMENT:\/\/}   see http://unlicense.org/ or the accompanying COPYING file."
         ],
         "description": "The unlicense notice (unofficial)"
+    },
+
+    "MPL-2.0.notice": {
+        "prefix": "Mozilla",
+        "body": [
+            "body"
+        ],
+        "description": "description"
     }
 }
