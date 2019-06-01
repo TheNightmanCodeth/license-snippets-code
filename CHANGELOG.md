@@ -10,4 +10,7 @@ and this project (loosely 😅) adheres to [Semantic Versioning](https://semver.
 ## [0.0.1] - 2019-06-01
 
 ### Added
- - Created snippets for GPL-3.0-or-later multifile and singlefile
+ - Created snippet for GPL-3.0-or-later multifile notice
+ - Created snippet for GPL-3.0-or-later singlefile notice
+ - Created snippet for GPL-3.0-or-later license
+ - Created project-level snippets file
