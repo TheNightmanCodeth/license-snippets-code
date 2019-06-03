@@ -1,65 +1,47 @@
-# licensesnippets README
+# Code License Snippets
 
-This is the README for your extension "licensesnippets". After writing up a brief description, we recommend including the following sections.
+A set of useful snippets for people who love open source but don't love copying the same header over and over.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Includes snippets for all of the *Popular Licenses* listed on [the opensource.org licenses page](https://opensource.org/licenses).
+- Includes whole license snippets (for COPYING/LICENSE files) to reduce time spent on all that copying and pasting
+- Includes header/license notice snippets for including on top of source files with language-specific line-comments and dynamic file-name and project-name variables
+- File name, author name, and project name can all be set using `tab`, or left as default
 
-For example if there is an image subfolder under your extension project workspace:
+## Supported Licenses
 
-\!\[feature X\]\(images/feature-x.png\)
+All of the *Popular Licenses* listed on [the opensource.org licenses page](https://opensource.org/licenses):
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- Apache License 2.0
+- BSD 3-Clause "New" or "Revised"
+- BSD 2-Clause "Simplified" or "FreeBSD"
+- GNU General Public License (GPL)
+- GNU Library or "Lesser" General Public License (LGPL)
+- MIT
+- Mozilla Public License 2.0
+- Common Development and Distribution License
+- Eclipse Public License
 
-## Requirements
+And some others:
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- Unlicense
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.1.0 -- Minimum Viable Product <3
 
-### 1.0.0
+Initial release of Code License Snippets
 
-Initial release of ...
+Includes snippets for:
+- Apache-2.0
+- GPL-3.0-or-later
+- MIT
+- MPL-v2.0
+- Unlicense
 
-### 1.0.1
+### 0.2.0 -- More licences 🎉
 
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Adds snippets for:
+- LGPL-3.0-or-later
+- AGPL-3.0-or-later
