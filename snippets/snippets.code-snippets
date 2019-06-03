@@ -1,6 +1,6 @@
 {
     "AGPL-3.0-or-later.license": {
-        "prefix": "agpl",
+        "prefix": "AGPL-3.0-or-later.license",
         "body": [
             "                    GNU AFFERO GENERAL PUBLIC LICENSE",
             "                       Version 3, 19 November 2007",
@@ -624,7 +624,7 @@
     },
 
     "AGPL-3.0-or-later.notice": {
-        "prefix": "agpl.notice",
+        "prefix": "AGPL-3.0-or-later.notice",
         "body": [
             "${LINE_COMMENT:\/\/}  ",
             "${LINE_COMMENT:\/\/}   * This file is a part of ${1:$WORKSPACE_NAME}",
@@ -648,7 +648,7 @@
     },
 
     "Apache-2.0.license": {
-        "prefix": "apache.license",
+        "prefix": "Apache-2.0.license",
         "body": [
             "",
             "                                 Apache License",
@@ -830,7 +830,7 @@
     },
 
     "Apache-2.0.notice": {
-        "prefix": "apache.notice",
+        "prefix": "Apache-2.0.notice",
         "body": [
             "${LINE_COMMENT:\/\/}  Copyright $CURRENT_YEAR ${1:author}",
             "${LINE_COMMENT:\/\/}  ",
@@ -850,7 +850,7 @@
     },
 
     "BSD-3-Clause": {
-        "prefix": "bsd-3-clause.license",
+        "prefix": "BSD-3-Clause.license",
         "body": [
             "Copyright ${CURRENT_YEAR} ${1:author}",
             "",
@@ -883,7 +883,7 @@
     },
 
     "BSD-2-Clause": {
-        "prefix": "bsd-2-clause.license",
+        "prefix": "BSD-2-Clause.license",
         "body": [
             "Copyright <YEAR> <COPYRIGHT HOLDER>",
             "",
@@ -1083,7 +1083,7 @@
     },
 
     "GPL-3.0-or-later.license": {
-        "prefix": "gpl.license",
+        "prefix": "GPL-3.0-or-later.license",
         "body": [
             "                    GNU GENERAL PUBLIC LICENSE",
             "                       Version 3, 29 June 2007",
@@ -1708,8 +1708,8 @@
         "description": "The GNU Public License v. 3.0"
     },
 
-    "GPL-3.0-or-later.notice-multifile": {
-        "prefix": "gpl3.notice-multifile",
+    "GPL-3.0-or-later.notice": {
+        "prefix": "GPL-3.0-or-later.notice",
         "body": [
             "${LINE_COMMENT:\/\/}   ",
             "${LINE_COMMENT:\/\/}   * This file is a part of ${1:$WORKSPACE_NAME}",
@@ -1730,11 +1730,11 @@
             "${LINE_COMMENT:\/\/}   along with ${1:$WORKSPACE_NAME}.  If not, see <https://www.gnu.org/licenses/>.",
             "${LINE_COMMENT:\/\/}   "
         ],
-		"description": "GPL notice for projects consisting of more than one (1) source file"
+		"description": "GPL notice for source files"
     },
 
     "LGPL-3.0-or-later.license": {
-        "prefix": "lgpl.license",
+        "prefix": "LGPL-3.0-or-later.license",
         "body": [
             "                   GNU LESSER GENERAL PUBLIC LICENSE",
             "                       Version 3, 29 June 2007",
@@ -1906,7 +1906,7 @@
     },
 
     "LGPL-3.0-or-later.notice": {
-        "prefix": "lgpl.notice",
+        "prefix": "LGPL-3.0-or-later.notice",
         "body": [
             "${LINE_COMMENT:\/\/}  ",
             "${LINE_COMMENT:\/\/}   * This file is a part of ${1:$WORKSPACE_NAME}",
@@ -1958,7 +1958,7 @@
     },
 
     "MPL-2.0.license": {
-        "prefix": ["Mozilla", "MPL"],
+        "prefix": "MPL-2.0.license",
         "body": [
             " Mozilla Public License Version 2.0",
             "==================================",
@@ -2338,7 +2338,7 @@
     },
     
     "MPL-2.0.notice": {
-        "prefix": ["Mozilla", "MPL"],
+        "prefix": "MPL-2.0.notice",
         "body": [
             "${LINE_COMMENT:\/\/}   This Source Code Form is subject to the terms of the Mozilla Public",
             "${LINE_COMMENT:\/\/}   License, v. 2.0. If a copy of the MPL was not distributed with this",
