@@ -8,7 +8,7 @@
                     "\t\t\"${3:body}\"",
                 "\t],",
                 "\t\"description\": \"${4:description}\"",
-            "}",
+            "},",
         ],
         "description": "An empty snippet"
     }
