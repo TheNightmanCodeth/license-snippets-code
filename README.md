@@ -29,6 +29,8 @@ And some others:
 
 ## Release Notes
 
+*See [CHANGELOG.md](CHANGELOG.md) for more details*
+
 ### 0.1.0 -- Minimum Viable Product <3
 
 Initial release of Code License Snippets
@@ -45,3 +47,10 @@ Includes snippets for:
 Adds snippets for:
 - LGPL-3.0-or-later
 - AGPL-3.0-or-later
+- BSD-3-Clause
+- CDDL-1.0
+- EPL-1.0
+
+Removes the singlefile GPL notices (Redundant)
+
+Improved formatting
