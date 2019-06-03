@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project (loosely 😅) adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.0.0] - 06/02/2019
+### Added
+- Package and release
+### Changed
+- Refactor snippet prefixes to match SPDX identifiers
+
+## [0.2.0~beta] - 06/02/2019
 ### Added
 - Created snippets for the LGPL-3.0-or-later license and its notice
 - Created snippets for the AGPL-3.0-or-later license and its notice

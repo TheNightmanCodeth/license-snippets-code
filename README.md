@@ -54,3 +54,8 @@ Adds snippets for:
 Removes the singlefile GPL notices (Redundant)
 
 Improved formatting
+
+### 1.0.0 -- Public release 👯‍♀️
+
+Package and release
+Refactor prefixes to match SPDX identifiers
