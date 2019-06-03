@@ -10,6 +10,8 @@ and this project (loosely 😅) adheres to [Semantic Versioning](https://semver.
 - Created snippets for the LGPL-3.0-or-later license and its notice
 - Created snippets for the AGPL-3.0-or-later license and its notice
 - Created snippet for the BSD-3-Clause license (no header/notice)
+- Created snippet for the BSD-2-Clause license (no header/notice)
+- Created snippet for the CDDL-1.0 license (no header/notice)
 ### Changed
 - Improved formatting of *GPL notices
 - Ignore duplicate header markdownlint rule
