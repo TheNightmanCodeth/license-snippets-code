@@ -7,12 +7,30 @@ and this project (loosely 😅) adheres to [Semantic Versioning](https://semver.
 
 ## [Unreleased]
 ### Added
+- Created snippets for the LGPL-3.0-or-later license and its notice
+- Created snippets for the AGPL-3.0-or-later license and its notice
+### Changed
+- Improved formatting of *GPL notices
+- Ignore duplicate header markdownlint rule
+- Alphabetize the snippets
+### Removed
+- Removed the singlefile GPL notice
+
+## [0.0.1~internal] - 06/01/2019
+### Added
+- Created snippet for Apache-2.0 license
+- Created snippet for Apache-2.0 notice
+- Created snippet for GPL-3.0-or-later license
 - Created snippet for GPL-3.0-or-later multifile notice
 - Created snippet for GPL-3.0-or-later singlefile notice
-- Created snippet for GPL-3.0-or-later license
-- Created snippet for Apache-2.0 notice
-- Created snippet for Apache-2.0 license
 - Created snippet for MIT license
+- Created snippet for MPL-v2.0 license
+- Created snippet for MPL-v2.0 notice
 - Created snippet for Unlicense "license"
 - Created snippet for Unlicense notice
 - Created project-level snippets file
+### Changed
+- Make default project name $WORKSPACE_NAME
+- Ignore blanks around lists markdownlint rule
+- Ignore blanks around headings markdownlint rule
+- Improved snippet descriptions by including proper license titles
