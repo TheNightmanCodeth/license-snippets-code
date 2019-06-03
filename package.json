@@ -3,6 +3,8 @@
     "displayName": "LicenseSnippets",
     "description": "Snippets for popular software licenses",
     "version": "1.0.0",
+    "publisher": "TheNightmanCodeth",
+    "repository": "https://github.com/TheNightmanCodeth/license-snippets-code",
     "engines": {
         "vscode": "^1.34.0"
     },
