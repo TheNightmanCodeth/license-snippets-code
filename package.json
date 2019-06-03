@@ -2,7 +2,7 @@
     "name": "licensesnippets",
     "displayName": "LicenseSnippets",
     "description": "Snippets for popular software licenses",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "TheNightmanCodeth",
     "repository": "https://github.com/TheNightmanCodeth/license-snippets-code",
     "engines": {

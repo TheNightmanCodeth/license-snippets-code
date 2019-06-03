@@ -7,6 +7,12 @@ and this project (loosely 😅) adheres to [Semantic Versioning](https://semver.
 
 ## [Unreleased]
 
+## [1.0.1] - 06/02/2019
+### Added
+- Includes the LICENSE file in root of project
+### Changed
+- Adds relevant information to package.json for relase
+
 ## [1.0.0] - 06/02/2019
 ### Added
 - Package and release

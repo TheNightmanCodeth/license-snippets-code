@@ -59,3 +59,8 @@ Improved formatting
 
 Package and release
 Refactor prefixes to match SPDX identifiers
+
+### 1.0.1 -- Packaging fixes
+
+Adds relevant information to the package.json
+Includes the LICENSE file (it works)
