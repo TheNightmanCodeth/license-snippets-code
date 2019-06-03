@@ -16,7 +16,7 @@ and this project (loosely 😅) adheres to [Semantic Versioning](https://semver.
 ### Removed
 - Removed the singlefile GPL notice
 
-## [0.0.1~internal] - 06/01/2019
+## [0.1.0~beta] - 06/01/2019
 ### Added
 - Created snippet for Apache-2.0 license
 - Created snippet for Apache-2.0 notice
