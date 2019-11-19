@@ -1,7 +1,7 @@
 {
-	"name": "license-snippets-code",
-	"displayName": "Dynamic License Snippets",
-	"description": "Customizable license header snippets",
+	"name": "license-helper-code",
+	"displayName": "License Helper",
+	"description": "Configurable license and file-header snippets with support for many popular open source licenses.",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.40.0"
@@ -10,7 +10,7 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:license_snippets.firstLaunch"
+		"onCommand:license_helper.firstLaunch"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -22,10 +22,10 @@
 					"default": "Author",
 					"markdownDescription": "The value for the `author` field in file headers."
 				},
-				"licenseHelper.company": {
+				"licenseHelper.organization": {
 					"type": "string",
-					"default": "Company",
-					"markdownDescription": "The value for the `company` field in file headers."
+					"default": "Organization",
+					"markdownDescription": "The value for the `organization` field in file headers."
 				},
 				"licenseHelper.projectName": {
 					"type": "string",
