@@ -1,7 +1,7 @@
 {
 	"name": "license-snippets-code",
 	"displayName": "Dynamic License Snippets",
-	"description": "",
+	"description": "Customizable license header snippets",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.40.0"
@@ -10,16 +10,35 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onCommand:license_snippets.firstLaunch"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
-		"commands": [
-			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
+		"configuration": {
+			"title": "License Helper",
+			"properties": {
+				"licenseHelper.author": {
+					"type": "string",
+					"default": "Author",
+					"markdownDescription": "The value for the `author` field in file headers."
+				},
+				"licenseHelper.company": {
+					"type": "string",
+					"default": "Company",
+					"markdownDescription": "The value for the `company` field in file headers."
+				},
+				"licenseHelper.projectName": {
+					"type": "string",
+					"default": "Project Name",
+					"markdownDescription": "The value for the `project name` field in file headers."
+				},
+				"licenseHelper.contactEmail": {
+					"type": "string",
+					"default": "<contact@email.com>",
+					"description": "The value for the project contact email in file headers."
+				}
 			}
-		]
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
