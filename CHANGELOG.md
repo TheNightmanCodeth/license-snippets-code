@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project (loosely 😅) adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## [2.0.0] - 11/19/2019
+### Added
+- Migrate to actual extension to support dynamic license snippets via a workspace config
 
 ## [1.0.1] - 06/02/2019
 ### Added
