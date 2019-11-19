@@ -27,6 +27,9 @@ And some others:
 
 - Unlicense
 
+## Contributing
+See [contributing.md](contributing.md)
+
 ## Release Notes
 
 *See [CHANGELOG.md](CHANGELOG.md) for more details*
