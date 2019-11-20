@@ -4,9 +4,11 @@
 
 Cool! We ♥️ contributions and can't wait to see what kinds of licenses we missed! If you're good with a keyboard, here's how to add a license yourself:
 
-#### **1: Add the license and (optional) header to `licenses.json`**  
+#### **1: Add the license and header (optional) to `licenses.json`**  
 
-The `licenses.json` file contains a json array containing json objects that represent the licenses that are supported by **License Helper**. Each json object in the array has 4 properties:  
+> Use the [`license-to-json.sh`](util/license-to-json.sh) script to make a json object from a LICENSE file
+
+The `licenses.json.ts` file contains a json array containing json objects that represent the licenses that are supported by **License Helper**. Each json object in the array has 4 properties:  
 * `name`  
     * If the license is `OSI` approved, this must be the `OSI` standard name.
     * If the license is *not* `OSI` approved, it should follow similar conventions.
@@ -15,8 +17,7 @@ The `licenses.json` file contains a json array containing json objects that repr
     * Don't include comment characters like `//` or `#`, this is done by the extension.
 * `body`
     * This is put into the `LICENSE` file
-    * The body, like the header, needs to be an array of lines containing no line breaks.
-    * See [this script](util/to-json-array.sh) for an easy way to convert a `LICENSE` file into a line-seperated array.    
+    * The body, like the header, needs to be an array of lines containing no line breaks.    
 * `description`
     * A single-sentence description of the license.
     * This is shown on the tooltip in the editor

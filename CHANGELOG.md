@@ -9,6 +9,9 @@ and this project (loosely 😅) adheres to [Semantic Versioning](https://semver.
 ## [2.0.0] - 11/19/2019
 ### Added
 - Migrate to actual extension to support dynamic license snippets via a workspace config
+- Helper script for adding license support
+### Changed
+- Change name to License Helper
 
 ## [1.0.1] - 06/02/2019
 ### Added
