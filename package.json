@@ -57,5 +57,8 @@
 		"typescript": "^3.6.4",
 		"tslint": "^5.20.0",
 		"vscode-test": "^1.2.2"
+	},
+	"dependencies": {
+		"ts.data.json": "^0.3.0"
 	}
 }
