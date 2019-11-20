@@ -10,13 +10,22 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:license_helper.firstLaunch"
+		"onCommand:license_helper.firstLaunch",
+		"onCommand:license_helper.initForProject"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
+		"commands": [{
+			"command": "license_helper.initForProject",
+			"title": "License Helper: Add license to project"
+		}],
 		"configuration": {
 			"title": "License Helper",
 			"properties": {
+				"licenseHelper.license": {
+					"type": "string",
+					"markdownDescription": "What license to populate in the project"
+				},
 				"licenseHelper.author": {
 					"type": "string",
 					"default": "Author",
