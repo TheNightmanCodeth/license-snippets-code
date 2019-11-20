@@ -1,4 +1,3 @@
-import * as vscode from 'vscode';
 import { JsonDecoder } from 'ts.data.json';
 import 'licenses.json.ts';
 
